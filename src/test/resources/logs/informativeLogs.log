@@ -1,16 +1,16 @@
-14:31:38.615 INFO  AUTOMATION - beforeAll
-14:31:38.728 INFO  AUTOMATION - before: Verificar la UI de la pagina
-14:31:41.032 INFO  AUTOMATION - Navegando a la url
-14:31:41.688 INFO  AUTOMATION - Esperando que la pagina cargue
-14:31:41.770 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-14:31:41.777 INFO  AUTOMATION - Verificando Login de la Pagina
-14:31:41.916 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
-14:31:42.314 INFO  AUTOMATION - afterAll
-14:31:42.519 INFO  AUTOMATION - beforeAll
-14:31:42.529 INFO  AUTOMATION - before: Verificar la UI de la pagina
-14:31:43.691 INFO  AUTOMATION - Navegando a la url
-14:31:44.269 INFO  AUTOMATION - Esperando que la pagina cargue
-14:31:44.315 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-14:31:44.317 INFO  AUTOMATION - Verificando Login de la Pagina
-14:31:44.431 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
-14:31:44.780 INFO  AUTOMATION - afterAll
+19:31:19.723 INFO  AUTOMATION - beforeAll
+19:31:19.783 INFO  AUTOMATION - before: Verificar la UI de la pagina
+19:31:20.884 INFO  AUTOMATION - Navegando a la url
+19:31:24.733 INFO  AUTOMATION - Esperando que la pagina cargue
+19:31:25.056 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+19:31:25.059 INFO  AUTOMATION - Verificando Login de la Pagina
+19:31:25.096 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
+19:31:25.315 INFO  AUTOMATION - afterAll
+19:31:25.402 INFO  AUTOMATION - beforeAll
+19:31:25.404 INFO  AUTOMATION - before: Verificar la UI de la pagina
+19:31:26.060 INFO  AUTOMATION - Navegando a la url
+19:31:29.670 INFO  AUTOMATION - Esperando que la pagina cargue
+19:31:30.055 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+19:31:30.055 INFO  AUTOMATION - Verificando Login de la Pagina
+19:31:30.095 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
+19:31:30.242 INFO  AUTOMATION - afterAll

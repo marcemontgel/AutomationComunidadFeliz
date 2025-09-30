@@ -12,7 +12,7 @@ public class CommonFlows {
 
     public void goToLoginPage() {
         Logs.info("Navegando a la url");
-        getDriver().get("https://www.saucedemo.com/");
+        getDriver().get("https://app.comunidadfeliz.com/");
 
         new LoginPage().waitPageToLoad();
     }

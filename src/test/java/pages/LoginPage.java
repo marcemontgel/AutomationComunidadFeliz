@@ -6,9 +6,9 @@ import utilities.BasePage;
 import utilities.Logs;
 
 public class LoginPage extends BasePage {
-    private final By userNameInput = By.id("user-name");
+    private final By userNameInput = By.id("email");
     private final By passwordInput = By.id("password");
-    private final By loginButton = By.id("login-button");
+    private final By loginButton = By.xpath("//button[text()='Iniciar sesión']");
 
     @Override
     public void waitPageToLoad() {
