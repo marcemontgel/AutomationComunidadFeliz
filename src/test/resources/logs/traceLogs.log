@@ -1,28 +1,17 @@
-19:31:19.723 INFO  AUTOMATION - beforeAll
-19:31:19.726 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-19:31:19.783 INFO  AUTOMATION - before: Verificar la UI de la pagina
-19:31:19.784 DEBUG AUTOMATION - Inicializando driver: EDGE
-19:31:19.784 DEBUG AUTOMATION - Headless mode? false
-19:31:20.835 DEBUG AUTOMATION - Maximizando Pantalla
-19:31:20.874 DEBUG AUTOMATION - Borrando Cookies
-19:31:20.884 INFO  AUTOMATION - Navegando a la url
-19:31:24.733 INFO  AUTOMATION - Esperando que la pagina cargue
-19:31:25.056 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-19:31:25.059 INFO  AUTOMATION - Verificando Login de la Pagina
-19:31:25.096 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
-19:31:25.096 DEBUG AUTOMATION - Matando el driver
-19:31:25.315 INFO  AUTOMATION - afterAll
-19:31:25.402 INFO  AUTOMATION - beforeAll
-19:31:25.402 DEBUG AUTOMATION - Borrando las carpetas de evidencias
-19:31:25.404 INFO  AUTOMATION - before: Verificar la UI de la pagina
-19:31:25.404 DEBUG AUTOMATION - Inicializando driver: EDGE
-19:31:25.404 DEBUG AUTOMATION - Headless mode? false
-19:31:26.025 DEBUG AUTOMATION - Maximizando Pantalla
-19:31:26.055 DEBUG AUTOMATION - Borrando Cookies
-19:31:26.060 INFO  AUTOMATION - Navegando a la url
-19:31:29.670 INFO  AUTOMATION - Esperando que la pagina cargue
-19:31:30.055 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-19:31:30.055 INFO  AUTOMATION - Verificando Login de la Pagina
-19:31:30.095 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
-19:31:30.095 DEBUG AUTOMATION - Matando el driver
-19:31:30.242 INFO  AUTOMATION - afterAll
+21:24:48.214 INFO  AUTOMATION - beforeAll
+21:24:48.215 DEBUG AUTOMATION - Borrando las carpetas de evidencias
+21:24:48.298 INFO  AUTOMATION - before: Credenciales validas
+21:24:48.298 DEBUG AUTOMATION - Asignando default driver a CHROME
+21:24:48.298 DEBUG AUTOMATION - Inicializando driver: CHROME
+21:24:48.298 DEBUG AUTOMATION - Headless mode? false
+21:24:49.278 DEBUG AUTOMATION - Maximizando Pantalla
+21:24:49.328 DEBUG AUTOMATION - Borrando Cookies
+21:24:49.339 INFO  AUTOMATION - Navegando a la url
+21:24:53.895 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+21:24:54.372 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+21:24:54.381 INFO  AUTOMATION - Ingresar Información
+21:24:54.533 INFO  AUTOMATION - Ingresar Password
+21:24:54.793 INFO  AUTOMATION - Haciendo click en el botón de Login
+21:24:54.901 INFO  AUTOMATION - after: Credenciales validas, status: PASSED
+21:24:54.901 DEBUG AUTOMATION - Matando el driver
+21:24:55.216 INFO  AUTOMATION - afterAll

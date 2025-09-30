@@ -10,7 +10,7 @@ import java.time.Duration;
 import java.util.List;
 
 public abstract class BasePage {
-    private final static int defaultTimeOut = 5;
+    private final static int defaultTimeOut = 60;
     private final int timeOut;
 
     public BasePage(int timeOut) {
@@ -25,24 +25,65 @@ public abstract class BasePage {
         return WebDriverProvider.get();
     }
 
-    protected void waitPage(By locator, String pageName) {
-        final var wait = new WebDriverWait(getDriver(), Duration.ofSeconds(this.timeOut));
+    protected WebDriverWait getWait() {
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(this.timeOut));
+    }
 
-        Logs.info("Esperando que la pagina cargue", pageName);
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    protected WebDriverWait getWait(int customTimeOut) {
+        return new WebDriverWait(getDriver(), Duration.ofSeconds(customTimeOut));
+    }
+
+    protected void waitPage(By locator, String pageName) {
+        Logs.info("Esperando que la pagina %s cargue", pageName);
+        getWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
         Logs.info("%s ha cargado satisfactoriamente", pageName);
     }
 
+    // Método básico - sin espera (manteniendo compatibilidad)
     protected WebElement find(By locator) {
         return getDriver().findElement(locator);
+    }
+
+    // Nuevos métodos con esperas
+    protected WebElement findWithWait(By locator) {
+        return getWait().until(ExpectedConditions.presenceOfElementLocated(locator));
+    }
+
+    protected WebElement findVisible(By locator) {
+        return getWait().until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
+
+    protected WebElement findClickable(By locator) {
+        return getWait().until(ExpectedConditions.elementToBeClickable(locator));
     }
 
     protected List<WebElement> findAll(By locator) {
         return getDriver().findElements(locator);
     }
 
-    public abstract void waitPageToLoad();
+    protected List<WebElement> findAllWithWait(By locator) {
+        return getWait().until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
+    }
 
+    protected List<WebElement> findAllVisible(By locator) {
+        return getWait().until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+    }
+
+    // Método para verificar que un elemento no está presente
+    protected boolean isElementNotPresent(By locator) {
+        return getWait(5).until(ExpectedConditions.invisibilityOfElementLocated(locator));
+    }
+
+    // Método para verificar que un elemento está presente
+    protected boolean isElementPresent(By locator) {
+        try {
+            findWithWait(locator);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+    }
+
+    public abstract void waitPageToLoad();
     public abstract void verifyPage();
 }
-
