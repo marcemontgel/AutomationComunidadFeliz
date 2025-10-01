@@ -190,7 +190,9 @@ timeout=30
 
 🎥 Ejecución de Pruebas en Video
 
-https://github.com/user-attachments/assets/9acd6cc1-bba4-4cb7-80a5-e90fd587dc4d
+
+https://github.com/user-attachments/assets/3dc430f0-d1ec-4285-bf62-971cb9c10f29
+
 
 -----------------------------------------------
 
