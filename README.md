@@ -165,6 +165,13 @@ mvn cluecumber-report:reporting
 
 -------------------------------------------------------------
 
+📊 Resultados Reportes
+
+<img width="1884" height="954" alt="image" src="https://github.com/user-attachments/assets/b78acf8b-dac6-46e2-b56b-5c859c36a0eb" />
+
+
+-------------------------------------------------------------
+
 ⚙️ Configuración
 
 Archivos de Configuración
