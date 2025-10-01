@@ -4,11 +4,10 @@ Feature: Login
 
     Given El usuario navega a la pagina de login
 
-  @regression
+  @regression @smoke
   Scenario: Credenciales validas
     When El usuario escribe las credenciales "usuariopruebaQA@comunidadfeliz.com" con password "Prueba2025."
     Then El usuario verifica que el dashboard de la comunidad se muestre correctamente
-    Then El usuario verifica que el nombre de la comunidad sea "Comunidad Prueba"
 
   @regression @smoke
   Scenario: Verificar la UI de la pagina

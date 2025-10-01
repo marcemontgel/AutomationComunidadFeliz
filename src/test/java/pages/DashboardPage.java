@@ -30,6 +30,7 @@ public class DashboardPage extends BasePage {
 
     // Métodos adicionales útiles para interactuar con el dashboard
     public void verifyCommunityName(String expectedName) {
+        Logs.info("Verificando Nombre de la Comunidad");
         String actualName = findVisible(communityName).getText();
         Assertions.assertTrue(actualName.contains(expectedName),
                 "El nombre de la comunidad debería ser: " + expectedName);

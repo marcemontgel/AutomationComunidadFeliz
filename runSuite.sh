@@ -1,1 +1,1 @@
-./mvnw clean test -Dgroups="regression" -Dbrowser="edge"
+./mvnw clean test -Dgroups="regression" -Dbrowser="chrome"

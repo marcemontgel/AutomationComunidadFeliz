@@ -1,30 +1,1057 @@
-08:33:33.488 INFO  AUTOMATION - beforeAll
-08:33:33.555 INFO  AUTOMATION - before: Agregar nuevo egreso de tipo Otro ReparaciÃ³n con fecha de facturaciÃ³n especÃ­fica
-08:33:34.435 INFO  AUTOMATION - Navegando a la url
-08:33:39.623 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-08:33:39.973 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-08:33:39.974 INFO  AUTOMATION - Ingresar InformaciÃ³n
-08:33:40.046 INFO  AUTOMATION - Ingresar Password
-08:33:40.105 INFO  AUTOMATION - Haciendo click en el botÃ³n de Login
-08:33:40.188 INFO  AUTOMATION - Esperando a que cargue el Dashboard de la Comunidad
-08:33:40.189 INFO  AUTOMATION - Esperando que la pagina DashboardPage cargue
-08:33:47.044 INFO  AUTOMATION - DashboardPage ha cargado satisfactoriamente
-08:33:47.045 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
-08:33:47.108 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
-08:33:49.025 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
-08:33:49.431 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
-08:33:51.718 INFO  AUTOMATION - Action: Selected category: ReparaciÃ³n
-08:33:51.915 INFO  AUTOMATION - Action: Select provider: Otro
-08:33:51.916 INFO  AUTOMATION - Ingresar nombre
-08:33:52.006 INFO  AUTOMATION - Ingresar rut
-08:33:52.135 INFO  AUTOMATION - Seleccionar subcuenta
-08:33:52.321 INFO  AUTOMATION - Action: Select acount: Proveedores
-08:33:52.324 INFO  AUTOMATION - Ingresar InformaciÃ³n
-08:33:52.418 INFO  AUTOMATION - Ingresar monto
-08:33:52.678 INFO  AUTOMATION - Seleccionar nÃºmero de cuotas: 5
-08:33:52.802 INFO  AUTOMATION - Cuota seleccionada exitosamente: 5
-08:33:53.043 INFO  AUTOMATION - Haciendo scroll al elemento...
-08:33:54.056 INFO  AUTOMATION - Scroll completado
-08:33:54.636 INFO  AUTOMATION - ConfiguraciÃ³n guardada
-08:33:56.644 INFO  AUTOMATION - after: Agregar nuevo egreso de tipo Otro ReparaciÃ³n con fecha de facturaciÃ³n especÃ­fica, status: PASSED
-08:33:57.034 INFO  AUTOMATION - afterAll
+16:30:35.874 INFO  AUTOMATION - beforeAll
+16:30:35.981 INFO  AUTOMATION - before: Ingresar al modulo de Egresos
+16:30:37.137 INFO  AUTOMATION - Navegando a la url
+16:30:41.571 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:30:41.972 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:30:41.972 INFO  AUTOMATION - Ingresar Información
+16:30:42.081 INFO  AUTOMATION - Ingresar Password
+16:30:42.130 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:30:42.281 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:30:43.871 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:30:43.871 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:30:43.885 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:30:44.053 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:30:44.221 INFO  AUTOMATION - Verificando que la opción este presente
+16:30:44.247 INFO  AUTOMATION - Seleccionando opción requerida
+16:30:45.636 INFO  AUTOMATION - after: Ingresar al modulo de Egresos, status: PASSED
+16:30:45.929 INFO  AUTOMATION - before: Ingresar al modulo de Configurar Comunidad
+16:30:46.732 INFO  AUTOMATION - Navegando a la url
+16:30:51.150 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:30:51.553 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:30:51.554 INFO  AUTOMATION - Ingresar Información
+16:30:51.644 INFO  AUTOMATION - Ingresar Password
+16:30:51.704 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:30:51.874 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:30:53.454 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:30:53.454 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:30:53.467 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:30:53.651 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:30:53.802 INFO  AUTOMATION - Verificando que la opción este presente
+16:30:53.811 INFO  AUTOMATION - Seleccionando opción requerida
+16:30:54.733 INFO  AUTOMATION - after: Ingresar al modulo de Configurar Comunidad, status: PASSED
+16:30:54.928 INFO  AUTOMATION - before: Verificar la UI del Dashboard
+16:30:55.702 INFO  AUTOMATION - Navegando a la url
+16:31:00.214 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:31:00.610 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:31:00.610 INFO  AUTOMATION - Ingresar Información
+16:31:00.693 INFO  AUTOMATION - Ingresar Password
+16:31:00.780 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:31:00.918 INFO  AUTOMATION - Esperando a que cargue el Dashboard de la Comunidad
+16:31:00.918 INFO  AUTOMATION - Esperando que la pagina DashboardPage cargue
+16:31:03.094 INFO  AUTOMATION - DashboardPage ha cargado satisfactoriamente
+16:31:03.096 INFO  AUTOMATION - Verificando el Dashboard de la Comunidad
+16:31:03.131 INFO  AUTOMATION - Dashboard de la Comunidad verificado exitosamente
+16:31:03.131 INFO  AUTOMATION - Verificando Nombre de la Comunidad
+16:31:03.168 INFO  AUTOMATION - after: Verificar la UI del Dashboard, status: PASSED
+16:31:03.391 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Gastos extraordinarios subcuenta proveedores
+16:31:04.117 INFO  AUTOMATION - Navegando a la url
+16:31:08.805 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:31:08.858 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:31:08.858 INFO  AUTOMATION - Ingresar Información
+16:31:08.944 INFO  AUTOMATION - Ingresar Password
+16:31:09.030 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:31:09.167 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:31:11.321 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:31:11.321 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:31:11.339 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:31:11.441 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:31:11.585 INFO  AUTOMATION - Verificando que la opción este presente
+16:31:11.605 INFO  AUTOMATION - Seleccionando opción requerida
+16:31:13.225 INFO  AUTOMATION - Settings Menu clickeado
+16:31:15.041 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:31:15.041 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:31:15.831 INFO  AUTOMATION - Click con JS realizado en elemento: Activado
+16:31:15.881 INFO  AUTOMATION - Opciones encontradas: 2
+16:31:15.922 INFO  AUTOMATION - Seleccionando opción: Desactivado
+16:31:15.949 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:31:15.958 INFO  AUTOMATION - Opción 'Desactivado' seleccionada correctamente
+16:31:15.958 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:31:15.988 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:16.500 INFO  AUTOMATION - Scroll completado
+16:31:18.891 INFO  AUTOMATION - Configuración guardada exitosamente
+16:31:18.891 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:31:19.073 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:31:19.147 INFO  AUTOMATION - Verificando que la opción este presente
+16:31:19.164 INFO  AUTOMATION - Seleccionando opción requerida
+16:31:20.590 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:31:20.590 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:31:20.795 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:31:20.795 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:31:22.631 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:31:22.631 INFO  AUTOMATION - Seleccionando el item
+16:31:22.741 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:23.273 INFO  AUTOMATION - Scroll completado
+16:31:23.514 INFO  AUTOMATION - Action: Selected category: Gastos extraordinarios
+16:31:23.514 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:31:23.514 INFO  AUTOMATION - Seleccionando el item
+16:31:23.539 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:24.051 INFO  AUTOMATION - Scroll completado
+16:31:24.204 INFO  AUTOMATION - Action: Selected provider: Otro
+16:31:24.204 INFO  AUTOMATION - Ingresar nombre
+16:31:24.278 INFO  AUTOMATION - Ingresar rut
+16:31:24.386 INFO  AUTOMATION - Seleccionar subcuenta
+16:31:24.386 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:31:24.386 INFO  AUTOMATION - Seleccionando el item
+16:31:24.410 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:24.916 INFO  AUTOMATION - Scroll completado
+16:31:25.084 INFO  AUTOMATION - Action: Selected account: Proveedores
+16:31:25.087 INFO  AUTOMATION - Ingresar Información
+16:31:25.224 INFO  AUTOMATION - Ingresar monto
+16:31:25.284 INFO  AUTOMATION - Asignando la fecha de pago
+16:31:25.284 INFO  AUTOMATION - Seleccionando la fecha
+16:31:25.284 INFO  AUTOMATION - Seleccionando el mes
+16:31:25.314 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:25.820 INFO  AUTOMATION - Scroll completado
+16:31:26.106 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:31:26.106 INFO  AUTOMATION - Seleccionar número de cuotas: 3
+16:31:26.210 INFO  AUTOMATION - Cuota seleccionada exitosamente: 3
+16:31:26.226 INFO  AUTOMATION - El campo de fecha de facturación no está visible. Se omite asignación.
+16:31:26.226 INFO  AUTOMATION - Guardando información de egreso
+16:31:26.266 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:26.786 INFO  AUTOMATION - Scroll completado
+16:31:28.351 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:31:28.474 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:31:28.507 INFO  AUTOMATION - Egreso guardado exitosamente
+16:31:28.507 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Gastos extraordinarios subcuenta proveedores, status: PASSED
+16:31:28.757 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Mantención subcuenta Remuneraciones por pagar - - Límite de cuotas
+16:31:29.497 INFO  AUTOMATION - Navegando a la url
+16:31:33.877 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:31:34.340 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:31:34.340 INFO  AUTOMATION - Ingresar Información
+16:31:34.444 INFO  AUTOMATION - Ingresar Password
+16:31:34.500 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:31:34.631 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:31:37.314 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:31:37.316 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:31:37.342 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:31:37.411 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:31:37.496 INFO  AUTOMATION - Verificando que la opción este presente
+16:31:37.522 INFO  AUTOMATION - Seleccionando opción requerida
+16:31:39.332 INFO  AUTOMATION - Settings Menu clickeado
+16:31:41.178 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:31:41.178 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:31:41.891 INFO  AUTOMATION - ? El valor ya está en 'Desactivado'. No se necesita cambio.
+16:31:41.891 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:31:41.932 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:42.456 INFO  AUTOMATION - Scroll completado
+16:31:45.468 INFO  AUTOMATION - Configuración guardada exitosamente
+16:31:45.468 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:31:45.636 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:31:45.883 INFO  AUTOMATION - Verificando que la opción este presente
+16:31:45.900 INFO  AUTOMATION - Seleccionando opción requerida
+16:31:47.145 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:31:47.145 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:31:47.304 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:31:47.304 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:31:48.881 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:31:48.881 INFO  AUTOMATION - Seleccionando el item
+16:31:48.997 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:49.507 INFO  AUTOMATION - Scroll completado
+16:31:49.724 INFO  AUTOMATION - Action: Selected category: Mantención
+16:31:49.724 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:31:49.724 INFO  AUTOMATION - Seleccionando el item
+16:31:49.750 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:50.264 INFO  AUTOMATION - Scroll completado
+16:31:50.404 INFO  AUTOMATION - Action: Selected provider: Otro
+16:31:50.404 INFO  AUTOMATION - Ingresar nombre
+16:31:50.485 INFO  AUTOMATION - Ingresar rut
+16:31:50.577 INFO  AUTOMATION - Seleccionar subcuenta
+16:31:50.577 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:31:50.577 INFO  AUTOMATION - Seleccionando el item
+16:31:50.594 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:51.104 INFO  AUTOMATION - Scroll completado
+16:31:51.323 INFO  AUTOMATION - Action: Selected account: Remuneraciones por pagar
+16:31:51.324 INFO  AUTOMATION - Ingresar Información
+16:31:51.412 INFO  AUTOMATION - Ingresar monto
+16:31:51.493 INFO  AUTOMATION - Asignando la fecha de pago
+16:31:51.494 INFO  AUTOMATION - Seleccionando la fecha
+16:31:51.494 INFO  AUTOMATION - Seleccionando el mes
+16:31:51.514 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:52.024 INFO  AUTOMATION - Scroll completado
+16:31:52.258 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:31:52.258 INFO  AUTOMATION - Seleccionar número de cuotas: 50
+16:31:52.376 INFO  AUTOMATION - Cuota seleccionada exitosamente: 50
+16:31:52.392 INFO  AUTOMATION - El campo de fecha de facturación no está visible. Se omite asignación.
+16:31:52.394 INFO  AUTOMATION - Guardando información de egreso
+16:31:52.431 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:31:52.944 INFO  AUTOMATION - Scroll completado
+16:31:54.464 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:31:54.574 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:31:54.606 INFO  AUTOMATION - Egreso guardado exitosamente
+16:31:54.606 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Mantención subcuenta Remuneraciones por pagar - - Límite de cuotas, status: PASSED
+16:31:54.864 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario existente por opción proveedor para mensaje de Rut ya registrado
+16:31:55.565 INFO  AUTOMATION - Navegando a la url
+16:31:59.895 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:32:00.310 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:32:00.314 INFO  AUTOMATION - Ingresar Información
+16:32:00.404 INFO  AUTOMATION - Ingresar Password
+16:32:00.454 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:32:00.536 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:32:02.748 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:32:02.748 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:32:02.762 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:32:02.883 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:32:03.013 INFO  AUTOMATION - Verificando que la opción este presente
+16:32:03.022 INFO  AUTOMATION - Seleccionando opción requerida
+16:32:04.661 INFO  AUTOMATION - Settings Menu clickeado
+16:32:06.027 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:32:06.027 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:32:06.761 INFO  AUTOMATION - ? El valor ya está en 'Desactivado'. No se necesita cambio.
+16:32:06.761 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:32:06.794 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:07.309 INFO  AUTOMATION - Scroll completado
+16:32:09.683 INFO  AUTOMATION - Configuración guardada exitosamente
+16:32:09.688 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:32:09.915 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:32:10.232 INFO  AUTOMATION - Verificando que la opción este presente
+16:32:10.241 INFO  AUTOMATION - Seleccionando opción requerida
+16:32:11.269 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:32:11.269 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:32:11.510 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:32:11.514 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:32:13.038 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:32:13.039 INFO  AUTOMATION - Seleccionando el item
+16:32:13.148 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:13.655 INFO  AUTOMATION - Scroll completado
+16:32:13.845 INFO  AUTOMATION - Action: Selected category: Administración
+16:32:13.845 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:32:13.847 INFO  AUTOMATION - Seleccionando el item
+16:32:13.869 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:14.373 INFO  AUTOMATION - Scroll completado
+16:32:14.515 INFO  AUTOMATION - Action: Selected provider: Otro
+16:32:14.515 INFO  AUTOMATION - Ingresar nombre
+16:32:14.595 INFO  AUTOMATION - Ingresar rut
+16:32:14.707 INFO  AUTOMATION - Seleccionar subcuenta
+16:32:14.707 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:32:14.707 INFO  AUTOMATION - Seleccionando el item
+16:32:14.730 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:15.235 INFO  AUTOMATION - Scroll completado
+16:32:15.465 INFO  AUTOMATION - Action: Selected account: Remuneraciones por pagar
+16:32:15.465 INFO  AUTOMATION - Ingresar Información
+16:32:15.565 INFO  AUTOMATION - Ingresar monto
+16:32:15.617 INFO  AUTOMATION - Asignando la fecha de pago
+16:32:15.617 INFO  AUTOMATION - Seleccionando la fecha
+16:32:15.617 INFO  AUTOMATION - Seleccionando el mes
+16:32:15.639 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:16.155 INFO  AUTOMATION - Scroll completado
+16:32:16.369 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:32:16.369 INFO  AUTOMATION - Seleccionar número de cuotas: 50
+16:32:16.435 INFO  AUTOMATION - Cuota seleccionada exitosamente: 50
+16:32:16.457 INFO  AUTOMATION - El campo de fecha de facturación no está visible. Se omite asignación.
+16:32:16.457 INFO  AUTOMATION - Guardando información de egreso
+16:32:16.496 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:17.004 INFO  AUTOMATION - Scroll completado
+16:32:18.028 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:32:18.135 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:32:18.165 INFO  AUTOMATION - Egreso guardado exitosamente
+16:32:18.165 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario existente por opción proveedor para mensaje de Rut ya registrado, status: PASSED
+16:32:18.413 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario existente categoría Reparación
+16:32:19.145 INFO  AUTOMATION - Navegando a la url
+16:32:22.414 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:32:22.806 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:32:22.806 INFO  AUTOMATION - Ingresar Información
+16:32:22.899 INFO  AUTOMATION - Ingresar Password
+16:32:22.994 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:32:23.237 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:32:25.317 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:32:25.317 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:32:25.326 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:32:25.398 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:32:25.557 INFO  AUTOMATION - Verificando que la opción este presente
+16:32:25.584 INFO  AUTOMATION - Seleccionando opción requerida
+16:32:27.187 INFO  AUTOMATION - Settings Menu clickeado
+16:32:29.586 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:32:29.586 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:32:30.362 INFO  AUTOMATION - Click con JS realizado en elemento: Desactivado
+16:32:30.394 INFO  AUTOMATION - Opciones encontradas: 2
+16:32:30.435 INFO  AUTOMATION - Seleccionando opción: Activado
+16:32:30.458 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:32:30.465 INFO  AUTOMATION - Opción 'Activado' seleccionada correctamente
+16:32:30.465 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:32:30.483 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:30.996 INFO  AUTOMATION - Scroll completado
+16:32:33.286 INFO  AUTOMATION - Configuración guardada exitosamente
+16:32:33.286 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:32:33.436 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:32:33.732 INFO  AUTOMATION - Verificando que la opción este presente
+16:32:33.765 INFO  AUTOMATION - Seleccionando opción requerida
+16:32:35.088 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:32:35.088 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:32:35.255 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:32:35.255 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:32:36.730 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:32:36.730 INFO  AUTOMATION - Seleccionando el item
+16:32:36.906 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:37.416 INFO  AUTOMATION - Scroll completado
+16:32:37.619 INFO  AUTOMATION - Action: Selected category: Reparación
+16:32:37.619 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:32:37.619 INFO  AUTOMATION - Seleccionando el item
+16:32:37.655 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:38.166 INFO  AUTOMATION - Scroll completado
+16:32:38.319 INFO  AUTOMATION - Action: Selected provider: Alvaro Rey
+16:32:38.322 INFO  AUTOMATION - Ingresar Información
+16:32:38.429 INFO  AUTOMATION - Ingresar monto
+16:32:38.531 INFO  AUTOMATION - Asignando la fecha de pago
+16:32:38.531 INFO  AUTOMATION - Seleccionando la fecha
+16:32:38.531 INFO  AUTOMATION - Seleccionando el mes
+16:32:38.549 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:39.067 INFO  AUTOMATION - Scroll completado
+16:32:39.249 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:32:39.249 INFO  AUTOMATION - Seleccionar número de cuotas: 5
+16:32:39.339 INFO  AUTOMATION - Cuota seleccionada exitosamente: 5
+16:32:39.363 INFO  AUTOMATION - Asignando la fecha de facturación: 23/10/2025
+16:32:39.389 INFO  AUTOMATION - Seleccionando la fecha
+16:32:39.389 INFO  AUTOMATION - Seleccionando el mes
+16:32:39.419 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:39.929 INFO  AUTOMATION - Scroll completado
+16:32:40.054 INFO  AUTOMATION - Action: Selected date: 23/10/2025
+16:32:40.054 INFO  AUTOMATION - Fecha de facturación asignada correctamente: 23/10/2025
+16:32:40.054 INFO  AUTOMATION - Guardando información de egreso
+16:32:40.070 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:40.582 INFO  AUTOMATION - Scroll completado
+16:32:45.544 INFO  AUTOMATION - No apareció popup de RUT, continuando normalmente
+16:32:45.558 INFO  AUTOMATION - Egreso guardado exitosamente
+16:32:45.558 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario existente categoría Reparación, status: PASSED
+16:32:45.818 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Uso y Consumo subcuenta proveedores
+16:32:46.475 INFO  AUTOMATION - Navegando a la url
+16:32:51.541 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:32:51.974 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:32:51.974 INFO  AUTOMATION - Ingresar Información
+16:32:52.065 INFO  AUTOMATION - Ingresar Password
+16:32:52.129 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:32:52.383 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:32:55.001 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:32:55.001 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:32:55.018 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:32:55.133 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:32:55.430 INFO  AUTOMATION - Verificando que la opción este presente
+16:32:55.446 INFO  AUTOMATION - Seleccionando opción requerida
+16:32:56.848 INFO  AUTOMATION - Settings Menu clickeado
+16:32:58.247 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:32:58.247 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:32:58.972 INFO  AUTOMATION - ? El valor ya está en 'Activado'. No se necesita cambio.
+16:32:58.972 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:32:59.002 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:32:59.512 INFO  AUTOMATION - Scroll completado
+16:33:01.944 INFO  AUTOMATION - Configuración guardada exitosamente
+16:33:01.944 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:33:02.136 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:33:02.365 INFO  AUTOMATION - Verificando que la opción este presente
+16:33:02.387 INFO  AUTOMATION - Seleccionando opción requerida
+16:33:03.644 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:33:03.644 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:33:03.902 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:33:03.903 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:33:06.233 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:33:06.233 INFO  AUTOMATION - Seleccionando el item
+16:33:06.337 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:06.852 INFO  AUTOMATION - Scroll completado
+16:33:07.118 INFO  AUTOMATION - Action: Selected category: Uso o consumo
+16:33:07.118 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:33:07.118 INFO  AUTOMATION - Seleccionando el item
+16:33:07.137 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:07.649 INFO  AUTOMATION - Scroll completado
+16:33:07.764 INFO  AUTOMATION - Action: Selected provider: Otro
+16:33:07.764 INFO  AUTOMATION - Ingresar nombre
+16:33:07.829 INFO  AUTOMATION - Ingresar rut
+16:33:07.944 INFO  AUTOMATION - Seleccionar subcuenta
+16:33:07.944 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:33:07.944 INFO  AUTOMATION - Seleccionando el item
+16:33:07.954 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:08.466 INFO  AUTOMATION - Scroll completado
+16:33:08.629 INFO  AUTOMATION - Action: Selected account: Proveedores
+16:33:08.629 INFO  AUTOMATION - Ingresar Información
+16:33:08.726 INFO  AUTOMATION - Ingresar monto
+16:33:08.784 INFO  AUTOMATION - Asignando la fecha de pago
+16:33:08.784 INFO  AUTOMATION - Seleccionando la fecha
+16:33:08.784 INFO  AUTOMATION - Seleccionando el mes
+16:33:08.804 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:09.316 INFO  AUTOMATION - Scroll completado
+16:33:09.529 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:33:09.529 INFO  AUTOMATION - Seleccionar número de cuotas: 2
+16:33:09.638 INFO  AUTOMATION - Cuota seleccionada exitosamente: 2
+16:33:09.676 INFO  AUTOMATION - Asignando la fecha de facturación: 23/10/2025
+16:33:09.694 INFO  AUTOMATION - Seleccionando la fecha
+16:33:09.694 INFO  AUTOMATION - Seleccionando el mes
+16:33:09.728 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:10.242 INFO  AUTOMATION - Scroll completado
+16:33:10.433 INFO  AUTOMATION - Action: Selected date: 23/10/2025
+16:33:10.433 INFO  AUTOMATION - Fecha de facturación asignada correctamente: 23/10/2025
+16:33:10.433 INFO  AUTOMATION - Guardando información de egreso
+16:33:10.467 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:10.989 INFO  AUTOMATION - Scroll completado
+16:33:14.597 INFO  AUTOMATION - No apareció popup de RUT, continuando normalmente
+16:33:14.614 INFO  AUTOMATION - Egreso guardado exitosamente
+16:33:14.614 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Uso y Consumo subcuenta proveedores, status: PASSED
+16:33:14.875 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Otra subcuenta Remuneraciones por pagar
+16:33:15.581 INFO  AUTOMATION - Navegando a la url
+16:33:20.039 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:33:20.509 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:33:20.511 INFO  AUTOMATION - Ingresar Información
+16:33:20.600 INFO  AUTOMATION - Ingresar Password
+16:33:20.663 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:33:20.858 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:33:22.995 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:33:22.995 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:33:23.011 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:33:23.129 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:33:23.523 INFO  AUTOMATION - Verificando que la opción este presente
+16:33:23.539 INFO  AUTOMATION - Seleccionando opción requerida
+16:33:24.831 INFO  AUTOMATION - Settings Menu clickeado
+16:33:26.599 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:33:26.601 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:33:27.316 INFO  AUTOMATION - ? El valor ya está en 'Activado'. No se necesita cambio.
+16:33:27.316 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:33:27.338 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:27.858 INFO  AUTOMATION - Scroll completado
+16:33:30.143 INFO  AUTOMATION - Configuración guardada exitosamente
+16:33:30.143 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:33:30.314 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:33:30.535 INFO  AUTOMATION - Verificando que la opción este presente
+16:33:30.543 INFO  AUTOMATION - Seleccionando opción requerida
+16:33:31.745 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:33:31.745 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:33:31.887 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:33:31.887 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:33:33.597 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:33:33.597 INFO  AUTOMATION - Seleccionando el item
+16:33:33.724 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:34.248 INFO  AUTOMATION - Scroll completado
+16:33:34.441 INFO  AUTOMATION - Action: Selected category: Otra
+16:33:34.441 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:33:34.441 INFO  AUTOMATION - Seleccionando el item
+16:33:34.457 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:34.966 INFO  AUTOMATION - Scroll completado
+16:33:35.060 INFO  AUTOMATION - Action: Selected provider: Otro
+16:33:35.060 INFO  AUTOMATION - Ingresar nombre
+16:33:35.118 INFO  AUTOMATION - Ingresar rut
+16:33:35.234 INFO  AUTOMATION - Seleccionar subcuenta
+16:33:35.234 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:33:35.234 INFO  AUTOMATION - Seleccionando el item
+16:33:35.251 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:35.765 INFO  AUTOMATION - Scroll completado
+16:33:35.946 INFO  AUTOMATION - Action: Selected account: Remuneraciones por pagar
+16:33:35.946 INFO  AUTOMATION - Ingresar Información
+16:33:36.002 INFO  AUTOMATION - Ingresar monto
+16:33:36.053 INFO  AUTOMATION - Asignando la fecha de pago
+16:33:36.053 INFO  AUTOMATION - Seleccionando la fecha
+16:33:36.053 INFO  AUTOMATION - Seleccionando el mes
+16:33:36.069 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:36.586 INFO  AUTOMATION - Scroll completado
+16:33:36.821 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:33:36.821 INFO  AUTOMATION - Seleccionar número de cuotas: 4
+16:33:36.956 INFO  AUTOMATION - Cuota seleccionada exitosamente: 4
+16:33:36.985 INFO  AUTOMATION - Asignando la fecha de facturación: 23/10/2025
+16:33:37.011 INFO  AUTOMATION - Seleccionando la fecha
+16:33:37.011 INFO  AUTOMATION - Seleccionando el mes
+16:33:37.046 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:37.568 INFO  AUTOMATION - Scroll completado
+16:33:37.778 INFO  AUTOMATION - Action: Selected date: 23/10/2025
+16:33:37.778 INFO  AUTOMATION - Fecha de facturación asignada correctamente: 23/10/2025
+16:33:37.781 INFO  AUTOMATION - Guardando información de egreso
+16:33:37.822 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:33:38.338 INFO  AUTOMATION - Scroll completado
+16:33:39.842 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:33:40.010 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:33:40.026 INFO  AUTOMATION - Egreso guardado exitosamente
+16:33:40.026 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Otra subcuenta Remuneraciones por pagar, status: PASSED
+16:33:40.310 INFO  AUTOMATION - before: Credenciales validas
+16:33:41.164 INFO  AUTOMATION - Navegando a la url
+16:33:45.802 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:33:46.234 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:33:46.234 INFO  AUTOMATION - Ingresar Información
+16:33:46.324 INFO  AUTOMATION - Ingresar Password
+16:33:46.381 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:33:46.434 INFO  AUTOMATION - Verificando el Dashboard de la Comunidad
+16:33:48.741 INFO  AUTOMATION - Dashboard de la Comunidad verificado exitosamente
+16:33:48.741 INFO  AUTOMATION - after: Credenciales validas, status: PASSED
+16:33:48.955 INFO  AUTOMATION - before: Verificar la UI de la pagina
+16:33:49.675 INFO  AUTOMATION - Navegando a la url
+16:33:55.459 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:33:55.885 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:33:55.885 INFO  AUTOMATION - Verificando Login de la Página
+16:33:55.925 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
+16:33:56.133 INFO  AUTOMATION - before: Desactivar el campo fecha de facturación en egresos
+16:33:56.855 INFO  AUTOMATION - Navegando a la url
+16:34:01.677 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:34:02.136 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:34:02.136 INFO  AUTOMATION - Ingresar Información
+16:34:02.226 INFO  AUTOMATION - Ingresar Password
+16:34:02.312 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:34:02.529 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:34:04.133 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:34:04.133 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:34:04.142 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:34:04.335 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:34:04.487 INFO  AUTOMATION - Verificando que la opción este presente
+16:34:04.511 INFO  AUTOMATION - Seleccionando opción requerida
+16:34:05.935 INFO  AUTOMATION - Settings Menu clickeado
+16:34:07.768 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:34:07.768 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:34:08.512 INFO  AUTOMATION - Click con JS realizado en elemento: Activado
+16:34:08.562 INFO  AUTOMATION - Opciones encontradas: 2
+16:34:08.586 INFO  AUTOMATION - Seleccionando opción: Desactivado
+16:34:08.644 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:34:08.652 INFO  AUTOMATION - Opción 'Desactivado' seleccionada correctamente
+16:34:08.652 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:34:08.672 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:34:09.180 INFO  AUTOMATION - Scroll completado
+16:34:11.525 INFO  AUTOMATION - Configuración guardada exitosamente
+16:34:11.525 INFO  AUTOMATION - after: Desactivar el campo fecha de facturación en egresos, status: PASSED
+16:34:11.788 INFO  AUTOMATION - before: Activar el campo fecha de facturación en egresos
+16:34:12.671 INFO  AUTOMATION - Navegando a la url
+16:34:17.033 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:34:17.451 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:34:17.451 INFO  AUTOMATION - Ingresar Información
+16:34:17.546 INFO  AUTOMATION - Ingresar Password
+16:34:17.599 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:34:17.839 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:34:19.452 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:34:19.452 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:34:19.474 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:34:19.633 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:34:19.744 INFO  AUTOMATION - Verificando que la opción este presente
+16:34:19.752 INFO  AUTOMATION - Seleccionando opción requerida
+16:34:21.319 INFO  AUTOMATION - Settings Menu clickeado
+16:34:22.929 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:34:22.929 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:34:23.649 INFO  AUTOMATION - Click con JS realizado en elemento: Desactivado
+16:34:23.673 INFO  AUTOMATION - Opciones encontradas: 2
+16:34:23.709 INFO  AUTOMATION - Seleccionando opción: Activado
+16:34:23.733 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:34:23.739 INFO  AUTOMATION - Opción 'Activado' seleccionada correctamente
+16:34:23.739 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:34:23.767 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:34:24.287 INFO  AUTOMATION - Scroll completado
+16:34:26.705 INFO  AUTOMATION - Configuración guardada exitosamente
+16:34:26.707 INFO  AUTOMATION - after: Activar el campo fecha de facturación en egresos, status: PASSED
+16:34:26.949 INFO  AUTOMATION - afterAll
+16:34:27.049 INFO  AUTOMATION - beforeAll
+16:34:27.056 INFO  AUTOMATION - before: Ingresar al modulo de Egresos
+16:34:27.833 INFO  AUTOMATION - Navegando a la url
+16:34:32.366 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:34:32.814 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:34:32.814 INFO  AUTOMATION - Ingresar Información
+16:34:32.917 INFO  AUTOMATION - Ingresar Password
+16:34:32.981 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:34:33.226 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:34:34.826 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:34:34.826 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:34:34.886 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:34:34.976 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:34:35.132 INFO  AUTOMATION - Verificando que la opción este presente
+16:34:35.143 INFO  AUTOMATION - Seleccionando opción requerida
+16:34:36.627 INFO  AUTOMATION - after: Ingresar al modulo de Egresos, status: PASSED
+16:34:36.860 INFO  AUTOMATION - before: Ingresar al modulo de Configurar Comunidad
+16:34:37.563 INFO  AUTOMATION - Navegando a la url
+16:34:41.928 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:34:42.379 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:34:42.379 INFO  AUTOMATION - Ingresar Información
+16:34:42.469 INFO  AUTOMATION - Ingresar Password
+16:34:42.539 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:34:42.711 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:34:44.334 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:34:44.334 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:34:44.342 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:34:44.448 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:34:44.527 INFO  AUTOMATION - Verificando que la opción este presente
+16:34:44.599 INFO  AUTOMATION - Seleccionando opción requerida
+16:34:45.472 INFO  AUTOMATION - after: Ingresar al modulo de Configurar Comunidad, status: PASSED
+16:34:45.696 INFO  AUTOMATION - before: Verificar la UI del Dashboard
+16:34:46.419 INFO  AUTOMATION - Navegando a la url
+16:34:50.987 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:34:51.398 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:34:51.398 INFO  AUTOMATION - Ingresar Información
+16:34:51.482 INFO  AUTOMATION - Ingresar Password
+16:34:51.532 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:34:51.591 INFO  AUTOMATION - Esperando a que cargue el Dashboard de la Comunidad
+16:34:51.591 INFO  AUTOMATION - Esperando que la pagina DashboardPage cargue
+16:34:53.700 INFO  AUTOMATION - DashboardPage ha cargado satisfactoriamente
+16:34:53.700 INFO  AUTOMATION - Verificando el Dashboard de la Comunidad
+16:34:53.727 INFO  AUTOMATION - Dashboard de la Comunidad verificado exitosamente
+16:34:53.727 INFO  AUTOMATION - Verificando Nombre de la Comunidad
+16:34:53.758 INFO  AUTOMATION - after: Verificar la UI del Dashboard, status: PASSED
+16:34:53.957 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Gastos extraordinarios subcuenta proveedores
+16:34:54.678 INFO  AUTOMATION - Navegando a la url
+16:34:59.597 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:35:00.013 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:35:00.017 INFO  AUTOMATION - Ingresar Información
+16:35:00.106 INFO  AUTOMATION - Ingresar Password
+16:35:00.163 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:35:00.395 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:35:02.502 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:35:02.502 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:35:02.514 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:35:02.585 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:35:02.760 INFO  AUTOMATION - Verificando que la opción este presente
+16:35:02.772 INFO  AUTOMATION - Seleccionando opción requerida
+16:35:04.292 INFO  AUTOMATION - Settings Menu clickeado
+16:35:05.675 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:35:05.675 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:35:06.417 INFO  AUTOMATION - Click con JS realizado en elemento: Activado
+16:35:06.466 INFO  AUTOMATION - Opciones encontradas: 2
+16:35:06.485 INFO  AUTOMATION - Seleccionando opción: Desactivado
+16:35:06.499 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:35:06.508 INFO  AUTOMATION - Opción 'Desactivado' seleccionada correctamente
+16:35:06.508 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:35:06.525 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:07.033 INFO  AUTOMATION - Scroll completado
+16:35:09.458 INFO  AUTOMATION - Configuración guardada exitosamente
+16:35:09.458 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:35:09.677 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:35:09.897 INFO  AUTOMATION - Verificando que la opción este presente
+16:35:09.914 INFO  AUTOMATION - Seleccionando opción requerida
+16:35:11.220 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:35:11.220 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:35:11.460 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:35:11.460 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:35:13.018 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:35:13.018 INFO  AUTOMATION - Seleccionando el item
+16:35:13.129 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:13.642 INFO  AUTOMATION - Scroll completado
+16:35:13.813 INFO  AUTOMATION - Action: Selected category: Gastos extraordinarios
+16:35:13.813 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:35:13.813 INFO  AUTOMATION - Seleccionando el item
+16:35:13.830 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:14.339 INFO  AUTOMATION - Scroll completado
+16:35:14.433 INFO  AUTOMATION - Action: Selected provider: Otro
+16:35:14.433 INFO  AUTOMATION - Ingresar nombre
+16:35:14.513 INFO  AUTOMATION - Ingresar rut
+16:35:14.615 INFO  AUTOMATION - Seleccionar subcuenta
+16:35:14.615 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:35:14.615 INFO  AUTOMATION - Seleccionando el item
+16:35:14.640 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:15.144 INFO  AUTOMATION - Scroll completado
+16:35:15.340 INFO  AUTOMATION - Action: Selected account: Proveedores
+16:35:15.340 INFO  AUTOMATION - Ingresar Información
+16:35:15.446 INFO  AUTOMATION - Ingresar monto
+16:35:15.546 INFO  AUTOMATION - Asignando la fecha de pago
+16:35:15.546 INFO  AUTOMATION - Seleccionando la fecha
+16:35:15.546 INFO  AUTOMATION - Seleccionando el mes
+16:35:15.573 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:16.082 INFO  AUTOMATION - Scroll completado
+16:35:16.335 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:35:16.335 INFO  AUTOMATION - Seleccionar número de cuotas: 3
+16:35:16.448 INFO  AUTOMATION - Cuota seleccionada exitosamente: 3
+16:35:16.463 INFO  AUTOMATION - El campo de fecha de facturación no está visible. Se omite asignación.
+16:35:16.463 INFO  AUTOMATION - Guardando información de egreso
+16:35:16.503 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:17.022 INFO  AUTOMATION - Scroll completado
+16:35:18.578 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:35:18.667 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:35:18.694 INFO  AUTOMATION - Egreso guardado exitosamente
+16:35:18.694 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Gastos extraordinarios subcuenta proveedores, status: PASSED
+16:35:18.928 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Mantención subcuenta Remuneraciones por pagar - - Límite de cuotas
+16:35:19.642 INFO  AUTOMATION - Navegando a la url
+16:35:23.932 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:35:24.322 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:35:24.329 INFO  AUTOMATION - Ingresar Información
+16:35:24.414 INFO  AUTOMATION - Ingresar Password
+16:35:24.569 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:35:24.666 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:35:26.800 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:35:26.800 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:35:26.814 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:35:26.915 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:35:27.076 INFO  AUTOMATION - Verificando que la opción este presente
+16:35:27.089 INFO  AUTOMATION - Seleccionando opción requerida
+16:35:28.651 INFO  AUTOMATION - Settings Menu clickeado
+16:35:29.967 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:35:29.967 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:35:30.699 INFO  AUTOMATION - ? El valor ya está en 'Desactivado'. No se necesita cambio.
+16:35:30.699 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:35:30.723 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:31.236 INFO  AUTOMATION - Scroll completado
+16:35:33.451 INFO  AUTOMATION - Configuración guardada exitosamente
+16:35:33.451 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:35:33.686 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:35:34.024 INFO  AUTOMATION - Verificando que la opción este presente
+16:35:34.037 INFO  AUTOMATION - Seleccionando opción requerida
+16:35:35.646 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:35:35.646 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:35:35.886 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:35:35.886 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:35:37.366 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:35:37.366 INFO  AUTOMATION - Seleccionando el item
+16:35:37.483 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:37.994 INFO  AUTOMATION - Scroll completado
+16:35:38.197 INFO  AUTOMATION - Action: Selected category: Mantención
+16:35:38.197 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:35:38.197 INFO  AUTOMATION - Seleccionando el item
+16:35:38.217 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:38.724 INFO  AUTOMATION - Scroll completado
+16:35:38.830 INFO  AUTOMATION - Action: Selected provider: Otro
+16:35:38.830 INFO  AUTOMATION - Ingresar nombre
+16:35:38.886 INFO  AUTOMATION - Ingresar rut
+16:35:38.987 INFO  AUTOMATION - Seleccionar subcuenta
+16:35:38.987 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:35:38.987 INFO  AUTOMATION - Seleccionando el item
+16:35:39.003 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:39.506 INFO  AUTOMATION - Scroll completado
+16:35:39.749 INFO  AUTOMATION - Action: Selected account: Remuneraciones por pagar
+16:35:39.749 INFO  AUTOMATION - Ingresar Información
+16:35:39.864 INFO  AUTOMATION - Ingresar monto
+16:35:39.997 INFO  AUTOMATION - Asignando la fecha de pago
+16:35:39.997 INFO  AUTOMATION - Seleccionando la fecha
+16:35:39.997 INFO  AUTOMATION - Seleccionando el mes
+16:35:40.018 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:40.529 INFO  AUTOMATION - Scroll completado
+16:35:40.751 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:35:40.751 INFO  AUTOMATION - Seleccionar número de cuotas: 50
+16:35:40.817 INFO  AUTOMATION - Cuota seleccionada exitosamente: 50
+16:35:40.831 INFO  AUTOMATION - El campo de fecha de facturación no está visible. Se omite asignación.
+16:35:40.831 INFO  AUTOMATION - Guardando información de egreso
+16:35:40.850 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:41.372 INFO  AUTOMATION - Scroll completado
+16:35:42.321 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:35:42.380 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:35:42.393 INFO  AUTOMATION - Egreso guardado exitosamente
+16:35:42.397 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Mantención subcuenta Remuneraciones por pagar - - Límite de cuotas, status: PASSED
+16:35:42.628 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario existente por opción proveedor para mensaje de Rut ya registrado
+16:35:43.333 INFO  AUTOMATION - Navegando a la url
+16:35:47.732 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:35:48.139 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:35:48.139 INFO  AUTOMATION - Ingresar Información
+16:35:48.225 INFO  AUTOMATION - Ingresar Password
+16:35:48.311 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:35:48.528 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:35:50.673 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:35:50.673 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:35:50.689 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:35:50.824 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:35:50.989 INFO  AUTOMATION - Verificando que la opción este presente
+16:35:51.004 INFO  AUTOMATION - Seleccionando opción requerida
+16:35:52.604 INFO  AUTOMATION - Settings Menu clickeado
+16:35:53.889 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:35:53.889 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:35:54.614 INFO  AUTOMATION - ? El valor ya está en 'Desactivado'. No se necesita cambio.
+16:35:54.614 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:35:54.647 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:35:55.167 INFO  AUTOMATION - Scroll completado
+16:35:57.373 INFO  AUTOMATION - Configuración guardada exitosamente
+16:35:57.374 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:35:57.566 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:35:57.704 INFO  AUTOMATION - Verificando que la opción este presente
+16:35:57.802 INFO  AUTOMATION - Seleccionando opción requerida
+16:35:58.975 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:35:58.975 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:35:59.125 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:35:59.125 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:36:00.784 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:36:00.784 INFO  AUTOMATION - Seleccionando el item
+16:36:00.885 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:01.396 INFO  AUTOMATION - Scroll completado
+16:36:01.577 INFO  AUTOMATION - Action: Selected category: Administración
+16:36:01.577 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:36:01.577 INFO  AUTOMATION - Seleccionando el item
+16:36:01.595 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:02.109 INFO  AUTOMATION - Scroll completado
+16:36:02.240 INFO  AUTOMATION - Action: Selected provider: Otro
+16:36:02.240 INFO  AUTOMATION - Ingresar nombre
+16:36:02.342 INFO  AUTOMATION - Ingresar rut
+16:36:02.460 INFO  AUTOMATION - Seleccionar subcuenta
+16:36:02.460 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:36:02.460 INFO  AUTOMATION - Seleccionando el item
+16:36:02.485 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:02.998 INFO  AUTOMATION - Scroll completado
+16:36:03.187 INFO  AUTOMATION - Action: Selected account: Remuneraciones por pagar
+16:36:03.187 INFO  AUTOMATION - Ingresar Información
+16:36:03.284 INFO  AUTOMATION - Ingresar monto
+16:36:03.350 INFO  AUTOMATION - Asignando la fecha de pago
+16:36:03.350 INFO  AUTOMATION - Seleccionando la fecha
+16:36:03.350 INFO  AUTOMATION - Seleccionando el mes
+16:36:03.369 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:03.882 INFO  AUTOMATION - Scroll completado
+16:36:04.084 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:36:04.084 INFO  AUTOMATION - Seleccionar número de cuotas: 50
+16:36:04.169 INFO  AUTOMATION - Cuota seleccionada exitosamente: 50
+16:36:04.184 INFO  AUTOMATION - El campo de fecha de facturación no está visible. Se omite asignación.
+16:36:04.184 INFO  AUTOMATION - Guardando información de egreso
+16:36:04.207 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:04.714 INFO  AUTOMATION - Scroll completado
+16:36:06.199 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:36:06.274 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:36:06.282 INFO  AUTOMATION - Egreso guardado exitosamente
+16:36:06.282 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario existente por opción proveedor para mensaje de Rut ya registrado, status: PASSED
+16:36:06.525 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario existente categoría Reparación
+16:36:07.234 INFO  AUTOMATION - Navegando a la url
+16:36:11.455 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:36:11.860 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:36:11.860 INFO  AUTOMATION - Ingresar Información
+16:36:11.940 INFO  AUTOMATION - Ingresar Password
+16:36:12.001 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:36:12.051 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:36:14.153 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:36:14.153 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:36:14.161 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:36:14.221 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:36:14.306 INFO  AUTOMATION - Verificando que la opción este presente
+16:36:14.314 INFO  AUTOMATION - Seleccionando opción requerida
+16:36:15.918 INFO  AUTOMATION - Settings Menu clickeado
+16:36:17.209 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:36:17.209 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:36:17.914 INFO  AUTOMATION - Click con JS realizado en elemento: Desactivado
+16:36:17.939 INFO  AUTOMATION - Opciones encontradas: 2
+16:36:17.972 INFO  AUTOMATION - Seleccionando opción: Activado
+16:36:17.989 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:36:17.995 INFO  AUTOMATION - Opción 'Activado' seleccionada correctamente
+16:36:17.995 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:36:18.009 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:18.521 INFO  AUTOMATION - Scroll completado
+16:36:20.769 INFO  AUTOMATION - Configuración guardada exitosamente
+16:36:20.769 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:36:21.131 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:36:21.295 INFO  AUTOMATION - Verificando que la opción este presente
+16:36:21.295 INFO  AUTOMATION - Seleccionando opción requerida
+16:36:22.626 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:36:22.626 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:36:22.758 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:36:22.758 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:36:24.386 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:36:24.386 INFO  AUTOMATION - Seleccionando el item
+16:36:24.467 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:24.984 INFO  AUTOMATION - Scroll completado
+16:36:25.233 INFO  AUTOMATION - Action: Selected category: Reparación
+16:36:25.233 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:36:25.233 INFO  AUTOMATION - Seleccionando el item
+16:36:25.251 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:25.758 INFO  AUTOMATION - Scroll completado
+16:36:25.883 INFO  AUTOMATION - Action: Selected provider: Alvaro Rey
+16:36:25.883 INFO  AUTOMATION - Ingresar Información
+16:36:25.964 INFO  AUTOMATION - Ingresar monto
+16:36:26.066 INFO  AUTOMATION - Asignando la fecha de pago
+16:36:26.066 INFO  AUTOMATION - Seleccionando la fecha
+16:36:26.066 INFO  AUTOMATION - Seleccionando el mes
+16:36:26.088 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:26.601 INFO  AUTOMATION - Scroll completado
+16:36:26.778 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:36:26.778 INFO  AUTOMATION - Seleccionar número de cuotas: 5
+16:36:26.831 INFO  AUTOMATION - Cuota seleccionada exitosamente: 5
+16:36:26.851 INFO  AUTOMATION - Asignando la fecha de facturación: 23/10/2025
+16:36:26.885 INFO  AUTOMATION - Seleccionando la fecha
+16:36:26.885 INFO  AUTOMATION - Seleccionando el mes
+16:36:26.917 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:27.427 INFO  AUTOMATION - Scroll completado
+16:36:27.583 INFO  AUTOMATION - Action: Selected date: 23/10/2025
+16:36:27.583 INFO  AUTOMATION - Fecha de facturación asignada correctamente: 23/10/2025
+16:36:27.583 INFO  AUTOMATION - Guardando información de egreso
+16:36:27.620 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:28.142 INFO  AUTOMATION - Scroll completado
+16:36:33.255 INFO  AUTOMATION - No apareció popup de RUT, continuando normalmente
+16:36:33.271 INFO  AUTOMATION - Egreso guardado exitosamente
+16:36:33.271 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario existente categoría Reparación, status: PASSED
+16:36:33.594 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Uso y Consumo subcuenta proveedores
+16:36:34.330 INFO  AUTOMATION - Navegando a la url
+16:36:38.602 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:36:39.019 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:36:39.019 INFO  AUTOMATION - Ingresar Información
+16:36:39.122 INFO  AUTOMATION - Ingresar Password
+16:36:39.180 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:36:39.243 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:36:40.976 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:36:40.976 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:36:40.984 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:36:41.057 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:36:41.162 INFO  AUTOMATION - Verificando que la opción este presente
+16:36:41.213 INFO  AUTOMATION - Seleccionando opción requerida
+16:36:42.629 INFO  AUTOMATION - Settings Menu clickeado
+16:36:43.944 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:36:43.944 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:36:44.670 INFO  AUTOMATION - ? El valor ya está en 'Activado'. No se necesita cambio.
+16:36:44.670 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:36:44.695 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:45.213 INFO  AUTOMATION - Scroll completado
+16:36:47.457 INFO  AUTOMATION - Configuración guardada exitosamente
+16:36:47.457 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:36:47.672 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:36:47.965 INFO  AUTOMATION - Verificando que la opción este presente
+16:36:47.975 INFO  AUTOMATION - Seleccionando opción requerida
+16:36:49.444 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:36:49.444 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:36:49.575 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:36:49.575 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:36:51.218 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:36:51.218 INFO  AUTOMATION - Seleccionando el item
+16:36:51.333 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:51.848 INFO  AUTOMATION - Scroll completado
+16:36:52.023 INFO  AUTOMATION - Action: Selected category: Uso o consumo
+16:36:52.023 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:36:52.023 INFO  AUTOMATION - Seleccionando el item
+16:36:52.045 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:52.553 INFO  AUTOMATION - Scroll completado
+16:36:52.722 INFO  AUTOMATION - Action: Selected provider: Otro
+16:36:52.722 INFO  AUTOMATION - Ingresar nombre
+16:36:52.810 INFO  AUTOMATION - Ingresar rut
+16:36:52.936 INFO  AUTOMATION - Seleccionar subcuenta
+16:36:52.936 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:36:52.936 INFO  AUTOMATION - Seleccionando el item
+16:36:52.956 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:53.468 INFO  AUTOMATION - Scroll completado
+16:36:53.706 INFO  AUTOMATION - Action: Selected account: Proveedores
+16:36:53.706 INFO  AUTOMATION - Ingresar Información
+16:36:53.795 INFO  AUTOMATION - Ingresar monto
+16:36:53.858 INFO  AUTOMATION - Asignando la fecha de pago
+16:36:53.858 INFO  AUTOMATION - Seleccionando la fecha
+16:36:53.858 INFO  AUTOMATION - Seleccionando el mes
+16:36:53.888 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:54.403 INFO  AUTOMATION - Scroll completado
+16:36:54.553 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:36:54.553 INFO  AUTOMATION - Seleccionar número de cuotas: 2
+16:36:54.619 INFO  AUTOMATION - Cuota seleccionada exitosamente: 2
+16:36:54.641 INFO  AUTOMATION - Asignando la fecha de facturación: 23/10/2025
+16:36:54.658 INFO  AUTOMATION - Seleccionando la fecha
+16:36:54.658 INFO  AUTOMATION - Seleccionando el mes
+16:36:54.666 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:55.180 INFO  AUTOMATION - Scroll completado
+16:36:55.376 INFO  AUTOMATION - Action: Selected date: 23/10/2025
+16:36:55.376 INFO  AUTOMATION - Fecha de facturación asignada correctamente: 23/10/2025
+16:36:55.376 INFO  AUTOMATION - Guardando información de egreso
+16:36:55.402 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:36:55.917 INFO  AUTOMATION - Scroll completado
+16:36:57.451 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:36:57.516 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:36:57.543 INFO  AUTOMATION - Egreso guardado exitosamente
+16:36:57.543 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Uso y Consumo subcuenta proveedores, status: PASSED
+16:36:57.860 INFO  AUTOMATION - before: Agregar nuevo egreso a usuario nuevo categoría Otra subcuenta Remuneraciones por pagar
+16:36:58.634 INFO  AUTOMATION - Navegando a la url
+16:37:03.009 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:37:03.426 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:37:03.426 INFO  AUTOMATION - Ingresar Información
+16:37:03.503 INFO  AUTOMATION - Ingresar Password
+16:37:03.580 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:37:03.636 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:37:05.346 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:37:05.346 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:37:05.354 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:37:05.484 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:37:05.585 INFO  AUTOMATION - Verificando que la opción este presente
+16:37:05.593 INFO  AUTOMATION - Seleccionando opción requerida
+16:37:07.082 INFO  AUTOMATION - Settings Menu clickeado
+16:37:08.821 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:37:08.821 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:37:09.145 INFO  AUTOMATION - ? El valor ya está en 'Activado'. No se necesita cambio.
+16:37:09.145 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:37:09.211 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:09.741 INFO  AUTOMATION - Scroll completado
+16:37:12.574 INFO  AUTOMATION - Configuración guardada exitosamente
+16:37:12.574 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:37:12.889 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:37:13.001 INFO  AUTOMATION - Verificando que la opción este presente
+16:37:13.012 INFO  AUTOMATION - Seleccionando opción requerida
+16:37:14.662 INFO  AUTOMATION - Esperando cargue el menú de Egresos
+16:37:14.662 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+16:37:14.865 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+16:37:14.865 INFO  AUTOMATION - Dando clic en el botón Nuevo Egreso
+16:37:16.385 INFO  AUTOMATION - Seleccionando el item de la lista de categoría
+16:37:16.385 INFO  AUTOMATION - Seleccionando el item
+16:37:16.492 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:16.999 INFO  AUTOMATION - Scroll completado
+16:37:17.217 INFO  AUTOMATION - Action: Selected category: Otra
+16:37:17.217 INFO  AUTOMATION - Seleccionando el item de la lista de proveedores
+16:37:17.217 INFO  AUTOMATION - Seleccionando el item
+16:37:17.236 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:17.751 INFO  AUTOMATION - Scroll completado
+16:37:17.903 INFO  AUTOMATION - Action: Selected provider: Otro
+16:37:17.903 INFO  AUTOMATION - Ingresar nombre
+16:37:17.962 INFO  AUTOMATION - Ingresar rut
+16:37:18.053 INFO  AUTOMATION - Seleccionar subcuenta
+16:37:18.053 INFO  AUTOMATION - Seleccionando el item de la lista de subcuenta
+16:37:18.053 INFO  AUTOMATION - Seleccionando el item
+16:37:18.073 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:18.581 INFO  AUTOMATION - Scroll completado
+16:37:18.774 INFO  AUTOMATION - Action: Selected account: Remuneraciones por pagar
+16:37:18.774 INFO  AUTOMATION - Ingresar Información
+16:37:18.873 INFO  AUTOMATION - Ingresar monto
+16:37:18.923 INFO  AUTOMATION - Asignando la fecha de pago
+16:37:18.923 INFO  AUTOMATION - Seleccionando la fecha
+16:37:18.923 INFO  AUTOMATION - Seleccionando el mes
+16:37:18.948 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:19.463 INFO  AUTOMATION - Scroll completado
+16:37:19.633 INFO  AUTOMATION - Action: Selected date: 21/10/2025
+16:37:19.633 INFO  AUTOMATION - Seleccionar número de cuotas: 4
+16:37:19.695 INFO  AUTOMATION - Cuota seleccionada exitosamente: 4
+16:37:19.726 INFO  AUTOMATION - Asignando la fecha de facturación: 23/10/2025
+16:37:19.743 INFO  AUTOMATION - Seleccionando la fecha
+16:37:19.743 INFO  AUTOMATION - Seleccionando el mes
+16:37:19.763 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:20.273 INFO  AUTOMATION - Scroll completado
+16:37:20.430 INFO  AUTOMATION - Action: Selected date: 23/10/2025
+16:37:20.430 INFO  AUTOMATION - Fecha de facturación asignada correctamente: 23/10/2025
+16:37:20.430 INFO  AUTOMATION - Guardando información de egreso
+16:37:20.458 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:20.969 INFO  AUTOMATION - Scroll completado
+16:37:22.453 INFO  AUTOMATION - Popup de RUT ya registrado detectado
+16:37:22.543 INFO  AUTOMATION - Se dio click en 'Cancelar' del popup
+16:37:22.573 INFO  AUTOMATION - Egreso guardado exitosamente
+16:37:22.573 INFO  AUTOMATION - after: Agregar nuevo egreso a usuario nuevo categoría Otra subcuenta Remuneraciones por pagar, status: PASSED
+16:37:24.596 INFO  AUTOMATION - before: Credenciales validas
+16:37:25.321 INFO  AUTOMATION - Navegando a la url
+16:37:29.798 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:37:30.200 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:37:30.202 INFO  AUTOMATION - Ingresar Información
+16:37:30.285 INFO  AUTOMATION - Ingresar Password
+16:37:30.359 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:37:30.581 INFO  AUTOMATION - Verificando el Dashboard de la Comunidad
+16:37:33.296 INFO  AUTOMATION - Dashboard de la Comunidad verificado exitosamente
+16:37:33.296 INFO  AUTOMATION - after: Credenciales validas, status: PASSED
+16:37:33.474 INFO  AUTOMATION - before: Verificar la UI de la pagina
+16:37:34.163 INFO  AUTOMATION - Navegando a la url
+16:37:38.420 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:37:38.863 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:37:38.863 INFO  AUTOMATION - Verificando Login de la Página
+16:37:38.908 INFO  AUTOMATION - after: Verificar la UI de la pagina, status: PASSED
+16:37:39.109 INFO  AUTOMATION - before: Desactivar el campo fecha de facturación en egresos
+16:37:39.809 INFO  AUTOMATION - Navegando a la url
+16:37:44.300 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:37:44.751 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:37:44.753 INFO  AUTOMATION - Ingresar Información
+16:37:44.832 INFO  AUTOMATION - Ingresar Password
+16:37:44.913 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:37:45.093 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:37:46.707 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:37:46.707 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:37:46.720 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:37:46.802 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:37:46.982 INFO  AUTOMATION - Verificando que la opción este presente
+16:37:47.006 INFO  AUTOMATION - Seleccionando opción requerida
+16:37:48.495 INFO  AUTOMATION - Settings Menu clickeado
+16:37:49.838 INFO  AUTOMATION - Intentando seleccionar opción: Desactivado
+16:37:49.839 INFO  AUTOMATION - Seleccionando opción del dropdown: Desactivado
+16:37:50.586 INFO  AUTOMATION - Click con JS realizado en elemento: Activado
+16:37:50.609 INFO  AUTOMATION - Opciones encontradas: 2
+16:37:50.633 INFO  AUTOMATION - Seleccionando opción: Desactivado
+16:37:50.659 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:37:50.673 INFO  AUTOMATION - Opción 'Desactivado' seleccionada correctamente
+16:37:50.673 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:37:50.708 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:37:51.222 INFO  AUTOMATION - Scroll completado
+16:37:53.413 INFO  AUTOMATION - Configuración guardada exitosamente
+16:37:53.413 INFO  AUTOMATION - after: Desactivar el campo fecha de facturación en egresos, status: PASSED
+16:37:53.620 INFO  AUTOMATION - before: Activar el campo fecha de facturación en egresos
+16:37:54.299 INFO  AUTOMATION - Navegando a la url
+16:37:58.864 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+16:37:59.268 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+16:37:59.268 INFO  AUTOMATION - Ingresar Información
+16:37:59.381 INFO  AUTOMATION - Ingresar Password
+16:37:59.521 INFO  AUTOMATION - Haciendo click en el botón de Login
+16:37:59.580 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+16:38:01.255 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+16:38:01.255 INFO  AUTOMATION - Verificando Menu Lateral este visible
+16:38:01.326 INFO  AUTOMATION - Dando clic en el icono de búsqueda
+16:38:01.440 INFO  AUTOMATION - Limpiando el campo de busqueda e insertando información
+16:38:01.570 INFO  AUTOMATION - Verificando que la opción este presente
+16:38:01.588 INFO  AUTOMATION - Seleccionando opción requerida
+16:38:03.366 INFO  AUTOMATION - Settings Menu clickeado
+16:38:05.193 INFO  AUTOMATION - Intentando seleccionar opción: Activado
+16:38:05.193 INFO  AUTOMATION - Seleccionando opción del dropdown: Activado
+16:38:06.017 INFO  AUTOMATION - Click con JS realizado en elemento: Desactivado
+16:38:06.067 INFO  AUTOMATION - Opciones encontradas: 2
+16:38:06.093 INFO  AUTOMATION - Seleccionando opción: Activado
+16:38:06.121 INFO  AUTOMATION - Click con JS realizado en elemento: 
+16:38:06.131 INFO  AUTOMATION - Opción 'Activado' seleccionada correctamente
+16:38:06.131 INFO  AUTOMATION - Opción seleccionada exitosamente
+16:38:06.149 INFO  AUTOMATION - Haciendo scroll al elemento...
+16:38:06.660 INFO  AUTOMATION - Scroll completado
+16:38:09.159 INFO  AUTOMATION - Configuración guardada exitosamente
+16:38:09.159 INFO  AUTOMATION - after: Activar el campo fecha de facturación en egresos, status: PASSED
+16:38:09.414 INFO  AUTOMATION - afterAll

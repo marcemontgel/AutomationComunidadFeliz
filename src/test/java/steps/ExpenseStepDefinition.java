@@ -4,19 +4,11 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebDriver;
 import pages.ExpensePage;
-import utilities.WebDriverProvider;
 
 public class ExpenseStepDefinition {
 
-    private WebDriver driver;
-    private ExpensePage expensePage;
-
-    public ExpenseStepDefinition(){
-        this.driver = WebDriverProvider.get();
-        this.expensePage = new ExpensePage(driver);
-    }
+    private final ExpensePage expensePage = new ExpensePage();
 
     @Given("El usuario ingresa al menú de Egresos")
     public void goToExpenseMenu() {
@@ -63,8 +55,15 @@ public class ExpenseStepDefinition {
         expensePage.setNumFee(num);
     }
 
+    @And("Mostrar mensaje del campo rut: {string}")
+    public void verifyMessageErrorRut(String error) {
+        expensePage.verifyMessageErrorRut(error);
+    }
+
     @Then("El usuario guarda los cambios")
     public void saveSettings() {
         expensePage.saveExpense();
     }
+
+
 }

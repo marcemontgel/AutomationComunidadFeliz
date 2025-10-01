@@ -40,7 +40,7 @@ public abstract class BasePage {
         Logs.info("%s ha cargado satisfactoriamente", pageName);
     }
 
-    // Método básico - sin espera (manteniendo compatibilidad)
+    // Metodo básico - sin espera (manteniendo compatibilidad)
     protected WebElement find(By locator) {
         return getDriver().findElement(locator);
     }
@@ -99,6 +99,44 @@ public abstract class BasePage {
                     "arguments[0].style.border=''", element);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
+        }
+    }
+
+
+    protected void scrollToElement(WebElement element) {
+        try {
+            Logs.info("Haciendo scroll al elemento...");
+            ((JavascriptExecutor) getDriver()).executeScript(
+                    "arguments[0].scrollIntoView({behavior: 'smooth', block: 'center', inline: 'center'});",
+                    element
+            );
+            Thread.sleep(500); // tiempo corto, solo para ver efecto
+            Logs.info("Scroll completado");
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException("Scroll interrumpido", e);
+        } catch (Exception e) {
+            Logs.warning("Error en scroll suave, intentando scroll simple");
+            ((JavascriptExecutor) getDriver()).executeScript("arguments[0].scrollIntoView();", element);
+        }
+    }
+
+    protected void highlightElement(WebElement element, String color) {
+        try {
+            String originalStyle = element.getAttribute("style");
+            ((JavascriptExecutor) getDriver()).executeScript(
+                    "arguments[0].style.border='3px solid " + color + "'; arguments[0].style.backgroundColor='yellow';",
+                    element
+            );
+            Thread.sleep(300);
+            ((JavascriptExecutor) getDriver()).executeScript(
+                    "arguments[0].style.border='" + (originalStyle != null ? originalStyle : "") + "';",
+                    element
+            );
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        } catch (Exception e) {
+            Logs.debug("No se pudo resaltar elemento: " + e.getMessage());
         }
     }
     public abstract void waitPageToLoad();

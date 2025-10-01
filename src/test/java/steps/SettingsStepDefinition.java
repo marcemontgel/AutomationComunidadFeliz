@@ -2,32 +2,24 @@ package steps;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
-import org.openqa.selenium.WebDriver;
 import pages.SettingsPage;
 import utilities.Logs;
-import utilities.WebDriverProvider;
 
 public class SettingsStepDefinition {
 
-    private WebDriver driver;
-    private SettingsPage settingsPage;
+   private final SettingsPage settingsPage = new SettingsPage();
 
-    public SettingsStepDefinition() {
-        this.driver = WebDriverProvider.get();
-        this.settingsPage = new SettingsPage(driver);
-    }
-
-    @Given("que el usuario abre la configuración de la comunidad")
+    @Given("El usuario abre la configuración de la comunidad")
     public void openCommunitySettings() {
         settingsPage.openSettingsMenu();
     }
 
-    @When("el usuario ingresa al panel de egresos e ingresos")
+    @When("El usuario ingresa al panel de egresos e ingresos")
     public void openExpensesAndIncomePanel() {
         settingsPage.openExpensesIncomePanel();
     }
 
-    @When("selecciona la opción {string} en el campo fecha de facturación en egresos")
+    @When("El usuario selecciona la opción {string} en el campo fecha de facturación en egresos")
     public void selectBillingDateOption(String option) {
         Logs.info("Intentando seleccionar opción: " + option);
         try {
@@ -39,7 +31,7 @@ public class SettingsStepDefinition {
         }
     }
 
-    @When("guarda los cambios")
+    @When("Guarda los cambios")
     public void saveCommunitySettings() {
         settingsPage.saveSettings();
     }

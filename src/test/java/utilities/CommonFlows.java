@@ -17,4 +17,6 @@ public class CommonFlows {
         new LoginPage().waitPageToLoad();
     }
 
+
+
 }

@@ -1,7 +1,6 @@
 package steps;
 
 import io.cucumber.java.en.Given;
-import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.jupiter.api.Assertions;
 import pages.BurgerMenuPage;
@@ -14,24 +13,14 @@ public class BurgerMenuStepDefinition {
         burgerMenuPage.waitPageToLoad(); burgerMenuPage.verifyPage();
     }
 
-    @When("El usuario busca el módulo {string}")
-    public void searchModule(String modulo) {
+    @When("El usuario busca el módulo {string} muestra {string} selecciona {string}")
+    public void findModule(String module, String selectedoption, String option) {
         burgerMenuPage.clickSearchIcon();
-        burgerMenuPage.typeInSearch(modulo);
-    }
-
-    @Then("El usuario selecciona la opción {string}")
-    public void selectedOption(String opcion) {
-        burgerMenuPage.selectOption(opcion);
-    }
-
-    @Then("El sistema debe mostrar la opción {string}")
-    public void showOptionBurgerMenu(String opcion) {
-        boolean present = burgerMenuPage.isOptionPresent(opcion);
+        burgerMenuPage.typeInSearch(module);
+        boolean present = burgerMenuPage.isOptionPresent(option);
 
         Assertions.assertTrue(present,
-                () -> "La opción '" + opcion + "' no está visible en el menú");
+                () -> "La opción '" + option + "' no está visible en el menú");
+        burgerMenuPage.selectOption(selectedoption);
     }
-
-
 }

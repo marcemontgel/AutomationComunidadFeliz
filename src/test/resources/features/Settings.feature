@@ -1,28 +1,21 @@
 Feature: Configuración de egresos e ingresos
 
-  Background:
+  Background: Precondicion de Credenciales Válidas
     Given El usuario navega a la pagina de login
+    When El usuario escribe las credenciales "usuariopruebaQA@comunidadfeliz.com" con password "Prueba2025."
+    Given El usuario ingresa al menú lateral
+    When El usuario busca el módulo "Configurar comunidad" muestra "Configurar comunidad" selecciona "Configurar comunidad"
 
+  @regression
   Scenario: Desactivar el campo fecha de facturación en egresos
-    When El usuario escribe las credenciales "usuariopruebaQA@comunidadfeliz.com" con password "Prueba2025."
-    Then El usuario debería ver el dashboard de la comunidad
-    Given El usuario ingresa al menú lateral
-    When El usuario busca el módulo "Configurar comunidad"
-    Then El sistema debe mostrar la opción "Configurar comunidad"
-    And El usuario selecciona la opción "Configurar comunidad"
-    Given que el usuario abre la configuración de la comunidad
-    When el usuario ingresa al panel de egresos e ingresos
-    And selecciona la opción "Desactivado" en el campo fecha de facturación en egresos
-    And guarda los cambios
+    Given El usuario abre la configuración de la comunidad
+    When El usuario ingresa al panel de egresos e ingresos
+    And El usuario selecciona la opción "Desactivado" en el campo fecha de facturación en egresos
+    And Guarda los cambios
 
+  @regression
   Scenario: Activar el campo fecha de facturación en egresos
-    When El usuario escribe las credenciales "usuariopruebaQA@comunidadfeliz.com" con password "Prueba2025."
-    Then El usuario debería ver el dashboard de la comunidad
-    Given El usuario ingresa al menú lateral
-    When El usuario busca el módulo "Configurar comunidad"
-    Then El sistema debe mostrar la opción "Configurar comunidad"
-    And El usuario selecciona la opción "Configurar comunidad"
-    Given que el usuario abre la configuración de la comunidad
-    When el usuario ingresa al panel de egresos e ingresos
-    And selecciona la opción "Activado" en el campo fecha de facturación en egresos
-    And guarda los cambios
+    Given El usuario abre la configuración de la comunidad
+    When El usuario ingresa al panel de egresos e ingresos
+    And El usuario selecciona la opción "Activado" en el campo fecha de facturación en egresos
+    And Guarda los cambios
