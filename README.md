@@ -186,6 +186,12 @@ browser=chrome
 environment=test
 timeout=30
 
+----------------------------------------------
+
+🎥 Ejecución de Pruebas en Video
+
+https://github.com/user-attachments/assets/9acd6cc1-bba4-4cb7-80a5-e90fd587dc4d
+
 -----------------------------------------------
 
 👨‍💻 Autor: Fanny Marcela Montañez Gélvez
