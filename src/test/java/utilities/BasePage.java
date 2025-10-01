@@ -1,6 +1,7 @@
 package utilities;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -84,6 +85,22 @@ public abstract class BasePage {
         }
     }
 
+    // En BasePage, agrega estos métodos:
+    protected void logAction(String action) {
+        Logs.info("Action: " + action);
+    }
+
+    protected void highlightElement(WebElement element) {
+        try {
+            ((JavascriptExecutor) getDriver()).executeScript(
+                    "arguments[0].style.border='2px solid yellow'", element);
+            Thread.sleep(100);
+            ((JavascriptExecutor) getDriver()).executeScript(
+                    "arguments[0].style.border=''", element);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
+    }
     public abstract void waitPageToLoad();
     public abstract void verifyPage();
 }

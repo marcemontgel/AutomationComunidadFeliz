@@ -1,10 +1,30 @@
-21:24:48.214 INFO  AUTOMATION - beforeAll
-21:24:48.298 INFO  AUTOMATION - before: Credenciales validas
-21:24:49.339 INFO  AUTOMATION - Navegando a la url
-21:24:53.895 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-21:24:54.372 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
-21:24:54.381 INFO  AUTOMATION - Ingresar Información
-21:24:54.533 INFO  AUTOMATION - Ingresar Password
-21:24:54.793 INFO  AUTOMATION - Haciendo click en el botón de Login
-21:24:54.901 INFO  AUTOMATION - after: Credenciales validas, status: PASSED
-21:24:55.216 INFO  AUTOMATION - afterAll
+08:33:33.488 INFO  AUTOMATION - beforeAll
+08:33:33.555 INFO  AUTOMATION - before: Agregar nuevo egreso de tipo Otro Reparación con fecha de facturación específica
+08:33:34.435 INFO  AUTOMATION - Navegando a la url
+08:33:39.623 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+08:33:39.973 INFO  AUTOMATION - LoginPage ha cargado satisfactoriamente
+08:33:39.974 INFO  AUTOMATION - Ingresar Información
+08:33:40.046 INFO  AUTOMATION - Ingresar Password
+08:33:40.105 INFO  AUTOMATION - Haciendo click en el botón de Login
+08:33:40.188 INFO  AUTOMATION - Esperando a que cargue el Dashboard de la Comunidad
+08:33:40.189 INFO  AUTOMATION - Esperando que la pagina DashboardPage cargue
+08:33:47.044 INFO  AUTOMATION - DashboardPage ha cargado satisfactoriamente
+08:33:47.045 INFO  AUTOMATION - Esperando que la pagina Burger Menu cargue
+08:33:47.108 INFO  AUTOMATION - Burger Menu ha cargado satisfactoriamente
+08:33:49.025 INFO  AUTOMATION - Esperando que la pagina ExpensePage cargue
+08:33:49.431 INFO  AUTOMATION - ExpensePage ha cargado satisfactoriamente
+08:33:51.718 INFO  AUTOMATION - Action: Selected category: Reparación
+08:33:51.915 INFO  AUTOMATION - Action: Select provider: Otro
+08:33:51.916 INFO  AUTOMATION - Ingresar nombre
+08:33:52.006 INFO  AUTOMATION - Ingresar rut
+08:33:52.135 INFO  AUTOMATION - Seleccionar subcuenta
+08:33:52.321 INFO  AUTOMATION - Action: Select acount: Proveedores
+08:33:52.324 INFO  AUTOMATION - Ingresar Información
+08:33:52.418 INFO  AUTOMATION - Ingresar monto
+08:33:52.678 INFO  AUTOMATION - Seleccionar número de cuotas: 5
+08:33:52.802 INFO  AUTOMATION - Cuota seleccionada exitosamente: 5
+08:33:53.043 INFO  AUTOMATION - Haciendo scroll al elemento...
+08:33:54.056 INFO  AUTOMATION - Scroll completado
+08:33:54.636 INFO  AUTOMATION - Configuración guardada
+08:33:56.644 INFO  AUTOMATION - after: Agregar nuevo egreso de tipo Otro Reparación con fecha de facturación específica, status: PASSED
+08:33:57.034 INFO  AUTOMATION - afterAll
